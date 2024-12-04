@@ -68,8 +68,7 @@ LIMIT 15;
 
 Como se era esperado por se tratar da loja de aplicativos da Google, os aplicativos mais baixados são da própria empresa, com exceção do Facebook na categoria Social.
 
-![image](https://github.com/user-attachments/assets/feee5c9e-5971-4e5a-bc17-810f3e8f5b80)
-
+![image](https://github.com/user-attachments/assets/903a5739-e385-4f3e-97b7-6a598a091744)
 
 Trabalho em progresso...
 
