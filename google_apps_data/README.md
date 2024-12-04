@@ -71,6 +71,6 @@ Como se era esperado por se tratar da loja de aplicativos da Google, os aplicati
 ![image](https://github.com/user-attachments/assets/feee5c9e-5971-4e5a-bc17-810f3e8f5b80)
 
 
-
+Trabalho em progresso...
 
 
