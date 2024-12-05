@@ -13,6 +13,7 @@
 - Qual é a categoria mais popular?
 - Quais são os aplicativos mais baixados por categoria?
 - Como varia o número de downloads entre aplicativos gratuitos e pagos?
+- Dentre os aplicativos gratuitos, quantos oferecem compras dentro do app?
 
 **Insights sobre Avaliações de Usuários**
 
@@ -70,6 +71,24 @@ Como se era esperado por se tratar da loja de aplicativos da Google, os aplicati
 
 ![image](https://github.com/user-attachments/assets/903a5739-e385-4f3e-97b7-6a598a091744)
 
-Trabalho em progresso...
+### :mag: Como varia o número de downloads entre aplicativos gratuitos e pagos?
+
+Uma consulta relativamente simples no SQL porém revelando uma diferença gigantesca entre os downloads entre aplicativos gratuitos e pagos.
+
+```
+SELECT free AS gratuito_ou_pago, SUM(maximum_installs)
+FROM google_apps
+GROUP BY gratuito_ou_pago
+```
+
+![image](https://github.com/user-attachments/assets/c4f00548-7015-436d-994e-e5c46c026060)
+
+Podemos concluir superficialmente que uma escolha interessante para uma empresa que desenvolve aplicativos é buscar o modelo de preço gratuito com compras dentro do aplicativo. Mas para termos mais certeza disso, a nossa próxima pergunta vai se aprofundar nessa informação.
+
+### :mag: Dentre os aplicativos gratuitos, quantos oferecem compras dentro do app?
+
+
+
+
 
 
