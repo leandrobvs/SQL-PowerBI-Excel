@@ -87,6 +87,27 @@ Podemos concluir superficialmente que uma escolha interessante para uma empresa 
 
 ### :mag: Dentre os aplicativos gratuitos, quantos oferecem compras dentro do app?
 
+Para responder a próxima pergunta foi efetuado a separação dos aplicativos que tem e não tem propaganda dentro deles, e os que oferecem compras dentro do aplicativo como, planos premium, desativar conteúdo específico, remover propagandas de dentro do app entre outros. Para extraiar essa informação a consulta a seguir foi utilizada:
+
+```
+SELECT free AS gratuito,
+		SUM(CASE WHEN ad_supported = TRUE THEN 1 ELSE 0 END) AS tem_ads,
+		SUM(CASE WHEN ad_supported = FALSE THEN 1 ELSE 0 END) AS n_tem_ads,
+		SUM(CASE WHEN in_app_purchases = TRUE THEN 1 ELSE 0 END) AS tem_compras_no_app,
+		SUM(CASE WHEN in_app_purchases = FALSE THEN 1 ELSE 0 END) AS n_tem_compras_no_app,
+		COUNT(free) AS total_apps_gratuitos
+FROM google_apps
+WHERE free = TRUE
+GROUP BY gratuito;
+```
+
+![image](https://github.com/user-attachments/assets/91616e1e-8b03-41b1-a22f-870c913c3469)
+
+Algumas conclusões que podemos tirar com base nos dados.
+
+As empresas que lançam aplicativos grátis preferem colocar anúncios dentro de seus aplicativos do que oferecer conteúdo pago dentro deles. 1.15 milhões de aplicativos tem propagandas, enquanto apenas 190 mil oferecem conteúdo pago. Porém com isso surge outra questão, se todos esses aplicativo com propagandas oferecem por meio de pagamento a retirada delas, tornando esse metodo quase que uma compra dentro do app de qualquer maneira, apenas outra estratégia. Infelizmente com os dados que temos não podemos conferir essa opção de retirar os ads com pagamentos.
+
+
 
 
 
