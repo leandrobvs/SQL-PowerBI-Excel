@@ -131,6 +131,37 @@ ORDER BY avg_rating ASC
 LIMIT 5;
 ```
 
+![image](https://github.com/user-attachments/assets/1ff138cf-5532-48bc-a30a-872473a80534)
+
+![image](https://github.com/user-attachments/assets/6e60a842-c3e5-4946-a450-6f7a3b9aecf6)
+
+
+Interessante entender que mesmo as piores médias que ficam entre 3.89 e 3.8 não estão tão distantes das melhores que batem 4.29 e 4.25. Mas diria muito de um aplicativo que tem nota abaixo das piores médias, pois nos mostra que as pessoas avaliam notas baixas quando realmente algum app está muito ruim ou algo incomodou elas.
+
+### :mag: Qual porcentagem dos aplicativos possui uma avaliação de usuário acima de 4.5?
+
+Para conseguirmos obter os números de quantos aplicativos estão acima da nota de 4.5 a seguinte consulta foi efetuada:
+
+```
+SELECT total_above,
+	ROUND((total_above * 100.0) / total_apps) AS porcentage
+FROM
+	(SELECT 
+	SUM(CASE WHEN rating > 4.5 THEN 1 ELSE 0 END) AS total_above	
+	FROM google_apps) AS sub_total_above,
+	(SELECT COUNT(*) AS total_apps
+	FROM google_apps) AS sub_total_apps;
+```
+Com isso podemos notar dentre os mais de 2 milhões de aplicativos disponíveis aos usuários, um total de 346 mil apps ficam com avaliações muito positivas o que representa 15% do total de apps na Google Store.
+
+![image](https://github.com/user-attachments/assets/b5b2690c-824a-4911-a65a-1c66d854ee73)
+
+
+
+
+
+
+
 
 
 
