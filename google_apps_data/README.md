@@ -3,7 +3,7 @@
 ### Estudo para praticar :)
 
 > [!NOTE]
-> Um breve esclarecimento dos métodos e passos utilizados nesta análise. O dataset em questão foi baixado diretamente da fonte e tratado por mim até a inserção no RDBMS, utilizando PostgreSQL e pgAdmin 4 para enviar as consultas ao banco de dados. O seguinte schema foi criado:
+> Um breve esclarecimento dos métodos e passos utilizados nesta análise. O dataset em questão foi baixado diretamente da fonte e tratado por mim até a inserção no RDBMS, utilizando PostgreSQL e pgAdmin 4 para enviar as consultas ao banco de dados. Visualizações criadas no Power BI. O seguinte schema foi criado:
 
 ![image](https://github.com/user-attachments/assets/8395cb4d-8cdb-4304-beb9-3069f0175a21)
 
