@@ -1,5 +1,6 @@
 # Analisando alguns números sobre mais de 2 milhões de APPS da Google Store
 ### Dados coletados por Gautham Prakash. Fonte: [Kaggle](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps/data)
+### Estudo para praticar :)
 
 > [!NOTE]
 > Um breve esclarecimento dos métodos e passos utilizados nesta análise. O dataset em questão foi baixado diretamente da fonte e tratado por mim até a inserção no RDBMS, utilizando PostgreSQL e pgAdmin 4 para enviar as consultas ao banco de dados. O seguinte schema foi criado:
