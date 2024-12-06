@@ -23,7 +23,6 @@
 **Potencial de Receita**
 
 - Quais categorias possuem o maior potencial de receita com base nos números de downloads e preço?
-- Qual é a receita total estimada para os 10 aplicativos pagos mais bem classificados?
 
 ## Respostas
 
@@ -149,6 +148,25 @@ FROM
 Com isso podemos notar dentre os mais de 2 milhões de aplicativos disponíveis aos usuários, um total de 346 mil apps ficam com avaliações muito positivas o que representa 15% do total de apps na Google Store.
 
 ![image](https://github.com/user-attachments/assets/b5b2690c-824a-4911-a65a-1c66d854ee73)
+
+### :mag:  Quais categorias possuem o maior potencial de receita com base nos números de downloads e preço?
+
+Para identificarmos a receita total, que nossos dados podem nos oferecer para cada categoria, extraimos do database as informações de preço médio de cada categoria e o total de instalações. Com isso podemos observar a receita média que cada categoria já proporcionou.
+
+```
+SELECT category, SUM(maximum_installs) AS installs, ROUND(AVG(price),2) as avg_price
+FROM google_apps
+WHERE price > 0
+GROUP BY category
+ORDER BY installs DESC
+```
+
+![image](https://github.com/user-attachments/assets/5fbc7e8e-c757-448c-98b4-daf0d0ad9a4b)
+
+Notamos que entre as 10 categorias com maior potencial de receita, 8 são categorias relacionadas a jogos, sendo elas (Arcade, Ação, RPG, Quebra-cabeça, Aventura, Simulação, Educação e Estratégia), e com uma boa margem a frente de todas os jogos Arcades faturaram mais de 500 milhões de dolares, quase 200 milhões a mais que a segunda colocação (jogos de ação).
+
+
+
 
 
 
