@@ -20,12 +20,6 @@
 - Quais são as categorias que recebem a maior e menor média de avaliações dos usuários?
 - Qual porcentagem dos aplicativos possui uma avaliação de usuário acima de 4,5?
 
-**Melhores Aplicativos**
-
- - Quais são os 10 aplicativos com mais downloads e as avaliações mais altas?
- - Quais aplicativos gratuitos possuem as maiores avaliações de usuários?
- - Entre os aplicativos pagos, quais geram mais downloads?
-
 **Potencial de Receita**
 
 - Quais categorias possuem o maior potencial de receita com base nos números de downloads e preço?
