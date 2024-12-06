@@ -17,8 +17,7 @@
 
 **Insights sobre Avaliações de Usuários**
 
-- Qual é a distribuição das avaliações de usuários por categoria de aplicativo?
-- Quais aplicativos têm as maiores e menores avaliações em cada categoria?
+- Quais são as categorias que recebem a maior e menor média de avaliações dos usuários?
 - Qual porcentagem dos aplicativos possui uma avaliação de usuário acima de 4,5?
 
 **Melhores Aplicativos**
@@ -101,11 +100,37 @@ WHERE free = TRUE
 GROUP BY gratuito;
 ```
 
-![image](https://github.com/user-attachments/assets/91616e1e-8b03-41b1-a22f-870c913c3469)
+![image](https://github.com/user-attachments/assets/d0f303b1-6415-4308-9a4e-ddf5f6ae33b2)
+
 
 Algumas conclusões que podemos tirar com base nos dados.
 
 As empresas que lançam aplicativos grátis preferem colocar anúncios dentro de seus aplicativos do que oferecer conteúdo pago dentro deles. 1.15 milhões de aplicativos tem propagandas, enquanto apenas 190 mil oferecem conteúdo pago. Porém com isso surge outra questão, se todos esses aplicativo com propagandas oferecem por meio de pagamento a retirada delas, tornando esse metodo quase que uma compra dentro do app de qualquer maneira, apenas outra estratégia. Infelizmente com os dados que temos não podemos conferir essa opção de retirar os ads com pagamentos.
+
+### :mag: Quais são as categorias que recebem a maior e menor média de avaliações dos usuários?
+
+Entrando em um assunto voltado para os insights que os usuários podem nos dizer, vamos mostrar dois ranks, um com as categorias que recebem as melhores avaliações e outro rank com as piores. Para isso fizemos duas consultas em SQL, sendo elas:
+
+```
+SELECT category, ROUND(AVG(rating),2) as avg_rating
+FROM google_apps
+WHERE rating > 0
+GROUP BY category
+ORDER BY avg_rating DESC
+LIMIT 5;
+```
+
+&
+
+```
+SELECT category, ROUND(AVG(rating),2) as avg_rating
+FROM google_apps
+WHERE rating > 0
+GROUP BY category
+ORDER BY avg_rating ASC
+LIMIT 5;
+```
+
 
 
 
