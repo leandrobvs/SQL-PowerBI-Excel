@@ -73,11 +73,11 @@ Com essa extração inicial podemos fazer um resumo breve do que temos por enqua
 O que eu gostaria de descobrir agora é: Quais categorias vendem mais dentro dessas 99 mil ordens
 
 ```
+
 WITH ranked_categories AS (
     SELECT 
         product_category_name AS categoria,
-        COUNT(order_id) AS total,
-        ROW_NUMBER() OVER(ORDER BY COUNT(order_id) DESC) AS ranking
+        COUNT(order_id) AS total
     FROM olist_products AS p
     LEFT JOIN olist_order_items AS o
     ON p.product_id = o.product_id
@@ -88,13 +88,15 @@ WITH ranked_categories AS (
 SELECT 
     categoria,
     total,
-    SUM(CASE WHEN ranking <= 10 THEN total ELSE 0 END) OVER () AS soma_top5_categorias,
-	(SELECT COUNT(*) FROM olist_orders) AS total_orders
-FROM ranked_categories
-ORDER BY ranking;
+    SUM(total) OVER () AS soma_top10_categorias,
+    (SELECT COUNT(*) FROM olist_orders) AS total_orders
+FROM ranked_categories;
+	
+
 ```
 
-![image](https://github.com/user-attachments/assets/313134b7-4c68-4340-8cd9-8ad17cdf6afe)
+![image](https://github.com/user-attachments/assets/3cbaf42d-b76c-40b2-bf21-664e8a5cabe2)
+
 
 Das 73 categorias disponíveis, as 10 melhores com maior número de pedidos são as mencionadas na imagem acima. Na mesma query aproveitei e extrai duas informações adicionais, a soma das 10 melhores categorias (71669) e em contraste o total de ordens (99441). Interessante notar que as 10 categorias que vendem mais produtos são responsáveis por 72% das vendas, como já mencionado, temos um total de 73 categorias, então ficamos com as 63 categorias restantes responsáveis pelos outros 28% das vendas.
 
