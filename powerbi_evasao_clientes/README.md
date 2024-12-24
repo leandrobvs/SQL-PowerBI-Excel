@@ -110,11 +110,30 @@ Descobrimos que entre a categoria Sênior a porcentagem de cancelamento entre el
 
 Assim podemos notar que conforme a idade avança a taxa de cancelamento aumenta e consequentemente faz com que esses grupos sejam os que tem menor número de clientes.
 
-Será que as pessoas que estão em planos família tem mais vantagens sobre os planos individuais e se isso interfere também na taxa de cancelamento. Vamos descobrir no gráfico a seguir.
+Vamos analisar um pouco os tipos de planos, será que as pessoas que estão em planos família tem mais vantagens sobre os planos individuais e se isso interfere também na taxa de cancelamento. Vamos descobrir no gráfico a seguir.
 
 ![image](https://github.com/user-attachments/assets/bd79ac9b-f90e-40a6-a7b6-2151f66c5be1)
 
 Quem não participa de algum plano em conjunto tem uma média mensal de cobranças de mais de 30 dolares e com taxas de cancelamento também acima dos 30%. Já os planos em conjunto tem uma redução nesse valor médio que fica em torno de 20 dolares e as taxas de cancelamento diminuiem para níveis abaixo de 10%.
+
+Outra diferença nos planos são por tempo (mensais, 1 ano e 2 anos). A nossa coluna Contract Type (Tipo de Contrato) nos da 3 informações como mencionado. Vamos deixar ela em 2 grupos Plano Mensal e Anual. Para isso outra tabela será criada com a seguinte expressão DAX.
+
+```
+Tipo de Plano = 
+SWITCH(
+    TRUE(),
+    'Databel - Data'[Contract Type] = "Mês a Mês", "Mensal",
+    'Databel - Data'[Contract Type] = "Um Ano", "Anual",
+    'Databel - Data'[Contract Type] = "Dois Anos", "Anual"
+)
+```
+
+E comparando as taxas de cancelamento por tipo de plano descobrimos uma diferença significativa 
+
+![image](https://github.com/user-attachments/assets/77115a18-fc36-45e4-a892-670791c8b710)
+
+
+
 
 
 
