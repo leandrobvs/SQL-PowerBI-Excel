@@ -1,4 +1,5 @@
-Análises e estudos para praticar.
+![image](https://github.com/user-attachments/assets/485d0073-fcc5-416e-88f3-186674c65f68)
+
 
 A CellCaps vende capinhas de celulares ultra resistentes. A empresa está planejando imprimir um catálogo de seus produtos e realizar uma campanha de mala direta. O custo de impressão do catálogo é de R$20.000 mais R$0,10 por catálogo. O custo de envio de cada catálogo (incluindo postagem, formulários de pedido e compra de nomes de um banco de dados de mala direta) é de R$0,15. Além disso, a empresa planeja incluir envelopes de resposta direta em seu envio e incorrerá em um custo extra de R$0,20 por envelope de mala direta utilizado por um respondente. 
 
