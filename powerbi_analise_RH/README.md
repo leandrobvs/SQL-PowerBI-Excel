@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/7b808402-2d63-43ff-94fa-d68d539b97e8)
 
-## Link --> [Dashboard Final](https://app.powerbi.com/view?r=eyJrIjoiOTY1MGRkNWMtOWU0Yi00Mzk3LWJkYjgtNDQxZTUzNWQwYmRhIiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9))
+## Link --> [Dashboard Final](https://app.powerbi.com/view?r=eyJrIjoiM2JlZjdmNGMtOWZjOS00MDg5LWFmYTQtOTA4NDNhYjQ3OGNlIiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9)
 
 Neste estudo de caso vamos explorar os dados de RH de uma empresa fictícia de software chamada Atlas Labs. Vamos realizar uma análise exploratória de dados e utilizar DAX para criar visualizações que ajudaram a nos aprofundar no tema de rotatividade (attrition) e nos fatores que a influenciam. Essa análise ajudará a empresa a determinar as ações necessárias para reter mais funcionários.
 
