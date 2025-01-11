@@ -130,7 +130,7 @@ ORDER BY dias_entregue DESC;
 
 ![logistica001](https://github.com/user-attachments/assets/38a14551-a3ef-43d5-9936-c5a9be93276d)
 
-O maior volume de entrega fica entre 1 e 20 dias, com os picos entre 5 a 10 dias. Podemos ver que realmente os pedidos que excedem 50 dias são casos pontuais mas que acontecem mais de uma vez, o que cria um alerta sobre a qualidade da logistica ou eventuais problemas de estoque ou algo relacionado com as empresas.
+O maior volume de entrega fica entre 1 e 20 dias, com os picos entre 5 a 10 dias. Podemos ver que os dados são assimétricos à direita o que indica que a maior parte dos dados está concentrada nos valores menores, enquanto a cauda da distribuição se estende para os valores maiores. Isso pode sugerir que exista a presença de Outliers, mas fica um alerta caso a empresa ache que isso possa estar afetando as vendas ou se há melhoras a se fazerem na parte de logística.
 
 ## Entendendo nosso público
 
