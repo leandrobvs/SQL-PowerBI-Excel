@@ -199,7 +199,7 @@ ORDER BY total DESC;
 
 ![image](https://github.com/user-attachments/assets/8a690a7d-75be-4482-9c44-d10a6e53580f)
 
-O grande número de avaliações ficam na casa das 5 e 4 estrelas, de modo geral o consumidor tem uma visão positiva das suas compras, porém a terceira nota mais recebida é de 1 estrela. Acredito que isso liga o alerta para que há margem para melhoria, pois mais de 10 mil avaliações não são de ser ignoradas quando praticamente 10% das suas vendas receberam a menor nota possível.
+O grande número de avaliações ficam na casa das 5 e 4 estrelas, de modo geral o consumidor tem uma visão positiva das suas compras, porém a terceira nota mais recebida é de 1 estrela. Acredito que isso liga o alerta para que há margem para melhoria, pois mais de 10 mil avaliações não podem ser ignoradas. Praticamente 10% das vendas receberam a menor nota possível.
 
 Como dito no inicio, quis fazer algo diferente, mais direto e usando praticamente só o SQL para enteder alguns números e criar alguns insights rápidos.
 
