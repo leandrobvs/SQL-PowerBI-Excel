@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/8d572ffb-f158-4f94-b958-2c6b1940f064)
+
+
 ## :mag_right: [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmEzMGQzNGUtNWU4ZC00MjNjLWFlYzUtYjgxMzA0Zjc3OGQ5IiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9)
 
 Link direto para o resultado final do Dashboard, caso queira ver o processo mais detalhado com a parte do SQL os links estão abaixo. Obrigado.
