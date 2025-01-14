@@ -161,4 +161,4 @@ Assim exportando ela como _FactEngagementData_
 
 Feito isso finalizamos a parte do SQL que envolveu extrair e tratar de imediato algumas questões de erros e formatações. Próxima etapa será finalizada no Power BI.
 
-[Voltar ao README.md](/README.md)
+[Voltar ao README.md](/powerbi_analise_marketing/README.md)
