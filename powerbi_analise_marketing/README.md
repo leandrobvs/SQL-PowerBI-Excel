@@ -4,7 +4,7 @@ ShopEasy, um negócio de varejo online, está enfrentando uma redução no engaj
 
 Vamos observar as mensagens que a empresa nos encaminhou e sublinhar as partes mais importantes, isso vai nos ajudar em todo o processo, entender o problema de negócio antes de entrar direto na parte técnica.
 
-[Link -> Mensagens da Empresa](./powerbi_analise_marketing/Emails.md)
+[Link -> Mensagens da Empresa](/powerbi_analise_marketing/Emails.md)
 
 Pontos principais:
 
