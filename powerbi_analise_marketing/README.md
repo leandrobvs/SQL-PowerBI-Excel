@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b3c55324-8f0b-41df-b6d7-7a673696214d)
+![image](https://github.com/user-attachments/assets/60a11716-d6f1-4835-9c8b-3a29e7a3d3fc)
 
 ## :mag_right: [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmEzMGQzNGUtNWU4ZC00MjNjLWFlYzUtYjgxMzA0Zjc3OGQ5IiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9)
 
