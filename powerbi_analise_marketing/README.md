@@ -39,7 +39,7 @@ Vamos marcar alguns objetivos que gostariamos de entregar/mostrar a empresa que 
 
 Com essas informações vamos começar a entender os dados que temos em mãos. Inicialmente no SQL e depois exportar os dados para o Power BI, então dependendo se for interessante já exportamos com algumas modificações.
 
-### :mag_right: [SQL análise](./powerbi_analise_marketing/sql.md)
+### :mag_right: [SQL análise](/powerbi_analise_marketing/sql.md)
 
 E como parte final do trabalho vou deixar o link para o dashboard criado no Power BI. Qualquer informações pertinentes durante a parte do Power BI vou ir acrescentando no corpo desse README.md
 
