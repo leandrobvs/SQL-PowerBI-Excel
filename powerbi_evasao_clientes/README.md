@@ -5,9 +5,9 @@
 ## Link --> [Dashboard - Final](https://app.powerbi.com/view?r=eyJrIjoiMmJjMDczMzAtMjg1My00MGUzLWIzOTAtNDI0NWJmN2RhMWYzIiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9&pageName=845a07278d42e8773667)
 
 > [!NOTE]  
-> Para quem se interessar no passo a passo e ideias que foram surgindo ao longo da analise pode acompanhar o processo nas descrições abaixo. Caso se interessar apenas com o produto final o link acima o levará para o dashboard com os resultados da analise. Obrigado.
+> Para quem se interessar no passo a passo e ideias que foram surgindo ao longo da análise, podem acompanhar o processo nas descrições abaixo. Caso se interessar apenas com o produto final o link acima o levará para o dashboard com os resultados da análise. Obrigado.
 
-### Metadados | Analisando a evasão de clientes
+## Metadados | Descobrindo possíveis causas para a evasão de clientes
 
 **Situação do cliente**
 
