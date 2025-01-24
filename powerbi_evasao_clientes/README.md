@@ -1,4 +1,4 @@
-### Estudo de caso feito com dataset fictício sobre uma companhia telefonica americana chamada Databel.
+### Evasão de clientes da companhia telefonica americana chamada Databel.
 
 ![image](https://github.com/user-attachments/assets/49dd4b08-090c-496c-a48e-60266bb109c6)
 
@@ -6,6 +6,8 @@
 
 > [!NOTE]  
 > Para quem se interessar no passo a passo e ideias que foram surgindo ao longo da análise, podem acompanhar o processo nas descrições abaixo. Caso se interessar apenas com o produto final o link acima o levará para o dashboard com os resultados da análise. Obrigado.
+
+### A empresa Databel gostaria de entender os números da empresa em relação a evasão de clientes, razões e causas das pessoas estarem cancelando o serviço com eles, pois acreditam que esse número esteja alto mas querem uma análise concreta e baseada em dados para visualizar e confirmar essa questão.
 
 ## Metadados | Descobrindo possíveis causas para a evasão de clientes
 
