@@ -4,7 +4,7 @@
 
 ## Link --> [Dashboard Final](https://app.powerbi.com/view?r=eyJrIjoiM2JlZjdmNGMtOWZjOS00MDg5LWFmYTQtOTA4NDNhYjQ3OGNlIiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9&pageName=2356803ad39e51ce9b3b)
 
-Neste estudo de caso vamos explorar os dados de RH de uma empresa fictícia de software chamada Atlas Labs. Vamos realizar uma análise exploratória de dados e utilizar DAX para criar visualizações que ajudaram a nos aprofundar no tema de rotatividade (attrition) e nos fatores que a influenciam. Essa análise ajudará a empresa a determinar as ações necessárias para reter mais funcionários.
+Neste estudo de caso vamos explorar os dados de RH de uma empresa de software chamada Atlas Labs. Vamos realizar uma análise exploratória de dados e utilizar DAX para criar visualizações que ajudaram a nos aprofundar no tema de rotatividade (attrition) e nos fatores que a influenciam. Essa análise ajudará a empresa a determinar as ações necessárias para reter mais funcionários.
 
 O que temos em mãos é um Esquema SnowFlake e fizemos algumas ligações de relacionamento entre as tabelas existentes.
 
