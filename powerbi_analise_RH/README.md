@@ -10,7 +10,7 @@ O que temos em mãos é um Esquema SnowFlake e fizemos algumas ligações de rel
 
 ![image](https://github.com/user-attachments/assets/9a02e77f-1d2c-4e28-8a1a-c05f4b6c6a55)
 
-Após fazer uma limpeza e conferência de dados, vemos que temos muitas informações dos funcionários. Por exemplo sobre qual nota os funcionários dão sobre diversos tópicos, como: Gerencia, Ambiente, Relações, Auto Avaliação, Trabalho etc...
+Após fazer uma limpeza e conferência de dados, vemos que temos muitas informações dos funcionários. Por exemplo sobre qual nota os funcionários dão sobre diversos tópicos, como: Gerência, Ambiente, Relações, Auto Avaliação, Trabalho etc...
 
 Inicialmente gosto de criar algumas medidas padrões:
 
