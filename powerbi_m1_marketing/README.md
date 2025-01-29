@@ -27,6 +27,8 @@
      
 [Notas e Advertências](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#notas-e-advertências)
 
+[Demo Dashboard](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#demo-dashboard)
+
 ## Dashboard Final
 
 > [!NOTE]  
