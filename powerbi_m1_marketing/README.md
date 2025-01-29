@@ -55,7 +55,8 @@ Os dados foram extraídos do BigQuery da Google que é um serviço de armazename
 
 A extração foi feita com apenas 1 query, essa escolha foi a melhor opção pois o BigQuery é um serviço pago e você pode pagar por demanda da banda que for consumindo. Com isso extrair tudo e depois preparar os dados diretamente no Power Query foi o ideal nesse contexto, caso contrário cada query geraria consumo da banda.
 
-![image](https://github.com/user-attachments/assets/811d10d5-0329-40a3-a5a8-a619aff670af)
+![img001](https://github.com/user-attachments/assets/751860a9-c25f-42cb-b801-969624d64a74)
+
 
 Aqui vemos que a query irá processar 83GB de dados para nos dar o resultado final que irá ficar com um tamanho bem menor, pois foi pedido pela agência a filtragem de anunciantes do Brasil. Assim ficamos com a seguinte query.
 
@@ -69,15 +70,15 @@ WHERE advertiser_location = 'BR'
 
 O BigQuery nos fornece algumas informações sobre o dataset e o schema é uma delas.
 
-![image](https://github.com/user-attachments/assets/ec7c1ea3-8dc8-4141-8b22-d156d6b80f1c)
+![img002](https://github.com/user-attachments/assets/e6c6fcfe-25e6-404d-89fd-fde5c648b20e)
 
 ## Visualização dos Anúncios
 
-![image](https://github.com/user-attachments/assets/8cd1b0e3-7776-41f9-8da5-379858506b07)
+![img003](https://github.com/user-attachments/assets/ed465d85-6c19-421c-819b-64116742a617)
 
 Na coluna [creative_page_url] é aonde fica a informação do link para a central de transparência de ads da Google para a pessoa visualizar qual propaganda foi publicada e assim olhar o conteúdo do anúncio, ao clicar em um link nós temos a seguinte tela.
 
-![image](https://github.com/user-attachments/assets/d19b3384-b88d-418b-99a5-15743e9e13ee)
+![img004](https://github.com/user-attachments/assets/dd81587a-f45e-4462-a69a-bfceaae182c6)
 
 Nesse caso do anúncio da Decolar, temos as informações que foi o anúncio foi mostrado no **Brasil**, a última vez publicado no dia **24/01/2025** no formato **Texto** e a anúncio em si que é mostrado ao usuário.
 
@@ -97,19 +98,19 @@ As informações cobrem o período de 01/03/2023 até o dia em que o dataset foi
 
 A imagem a seguir mostra as plataformas nas quais os anúncios podem ser publicados.
 
-![Screenshot_1](https://github.com/user-attachments/assets/6822cb52-e40e-4387-a367-28fb73e87c61)
+![Screenshot_1](https://github.com/user-attachments/assets/068ea40c-2da0-4e8b-98c2-5a55569de3ff)
 
 ## Métricas gerais
 
 Fizemos algumas medidas DAX para visualizarmos algumas métricas gerais. São números bastante expressivos, vemos que há mais de 4 milhões de anúncios nesse período e um total de 37 mil e 653 anunciantes. Lembrando que cada anúncio mesmo tendo o mesmo *[creative_id]* ele pode ser postado em diferentes plataformas como mencionado anteriormente. Isso quer dizer que podemos ter o mesmo conteúdo porém ele apareceu uma vez no google maps e outra vez no google search, mas é considerado dois anúncios e o google cobra pelo número total de aparições, além de serem postados na mesma plataforma mas em dias diferentes, isso tudo vai agregando a esse número total de publicações.
 
-![image](https://github.com/user-attachments/assets/69d12443-9b18-4a94-915e-4fbd320b9df0)
+![img006](https://github.com/user-attachments/assets/14e29376-2672-45f5-90c6-9a86b1ff8924)
 
 ## Principais anunciantes
 
 A imagem a seguir contém os 15 anunciantes que mais publicaram anuncios nas plataformas da Google. O grande vencedor é o Booking.com com mais de 100 mil anúncios, porém além de empresas grandes como a booking.com, magazine luiza, 123 viagens, são empresas especializadas em marketing digital, como o CityAds, que no caso seria um dos serviços que a M1 oferece, a parte de publicações e controle dessa parte para os clientes.
 
-![image](https://github.com/user-attachments/assets/43968b90-ba15-487f-afbd-ad755f39db82)
+![img007](https://github.com/user-attachments/assets/40dd513d-4794-4fcd-8290-2e7156ccc458)
 
 ## Se aprofundando nas publicações
 
@@ -117,7 +118,7 @@ O anunciante tem a opção de escolher em qual categoria seu anúncio vai ser co
 
 Podemos ver que as categorias que mais publicam anúncios são de Viagem e Turismo, Negócios e Indústria, Vestuário e Artes e Entretenimento.
 
-![image](https://github.com/user-attachments/assets/17cd5382-e6d1-4980-b66b-a45497ea7fe5)
+![img008](https://github.com/user-attachments/assets/1fdbdfbb-d2a5-45fa-8865-2a6fe0907c02)
 
 Ao ser publicada, uma propaganda pode sofrer a influência de alguns critérios. Retirado do BigQuery da Google, as seguintes informações sobre essas categorias são:
 
@@ -129,17 +130,17 @@ Ao ser publicada, uma propaganda pode sofrer a influência de alguns critérios.
 
 E analisando alguns desses números vemos o contraste que existem entre as categorias.
 
-![image](https://github.com/user-attachments/assets/90f15460-670d-4e93-aa81-6428fdeabb4b)
+![img009](https://github.com/user-attachments/assets/3d42389f-5745-44d1-b969-a6a5013354f9)
 
 Enquanto mais de 77% da publicações conseguiram ter critérios aplicados na categoria de **Informações Demográficas**, 82% das publicações não conseguiram ter critérios de **Tópicos de Interesse** aplicados ao mostrar um anúncio aos usuários.
 
 Outro fator de escolha em cada publicação é a escolha do formato em que a informação será transmitida pelo anunciante. O dataset nos mostra que essa escolha é feita através de 3 tipos de informação, a textual, por imagem e por fim vídeos.
 
-![image](https://github.com/user-attachments/assets/1a6e8969-a0d3-4c43-94ab-93585d2a07a8)
+![img010](https://github.com/user-attachments/assets/44192244-fe92-4800-8a6d-59ab3eb6cf4a)
 
 Uma última informação sobre as publicações que gostaria de mostrar é a data na qual as propagandas foram mostradas pela última vez. 
 
-![image](https://github.com/user-attachments/assets/e2b6cc05-b396-4afa-b19f-50c4c3ae3607)
+![img011](https://github.com/user-attachments/assets/077dacbc-bb24-4259-a847-3b00f1e0cf90)
 
 Para entendermos esse gráfico é importante ter em mente que muitos anúncios podem ter sido criados em meses anteriores mas ainda estarem ativos na plataforma e sendo republicados. Por isso nota-se um número bem maior no último mês da coleta dos dados, podemos considerar ele o mês vigente, por assim dizer. Assim concluir que em janeiro de 2025 temos mais de 1 milhão de anúncios ativos sendo mostrados nas diversas plataformas da Google, provenientes de anunciantes que estão cadastrados como país **Brasil** em sua localidade.
 
