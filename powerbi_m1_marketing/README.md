@@ -172,11 +172,11 @@ Como uma última observação, a página 1, denominada Visão Geral, foi adicion
 
 E assim finalizamos essa documentação com uma pequena demonstração e exemplos de aplicações do projeto final. Na primeira página podemos filtrar os conteúdos para vermos por exemplo, clicando em Imagem, quais assuntos utilizam mais esse formato para fazer suas propagandas? Na imagem vemos que a categoria Vestuário utiliza mais Imagens, Viagem e Turismo explora muito o formato Texto e assim por diante.
 
-![sample001](https://github.com/user-attachments/assets/298fc3bc-fc7e-49a2-9015-66b0ccebf17c)
+![sample001](https://github.com/user-attachments/assets/024c3e07-d52e-44d0-8377-bcaeb336e2ab)
 
 No exemplo a seguir, selecionamos as categorias primeiro para filtrar as outras informações, então podemos ver que na categoria Finanças no mês de Janeiro de 2025 foram feitas mais de 54 mil publicações, e um total de 1302 anunciantes diferentes. Já a Categoria Vestuário tem 2502 anunciantes e houveram mais de 79 mil publicações.
 
-![sample002](https://github.com/user-attachments/assets/bf46fade-8fb6-4f88-9977-a2181bdc7d21)
+![sample002](https://github.com/user-attachments/assets/08c087e2-e9dc-4fa2-a761-70444dd709bc)
 
 Passando para a página 2 no qual sua função é filtrar os anúncios baseado em interesses prévios ou não, e verificar as propagandas criadas e utilizadas pelas outras pessoas ou empresas.
 
@@ -188,7 +188,8 @@ Algo interessante é o fato do link te leva para o site da Google com isso temos
 
 Outra função primordial para a M1 é o fato de pesquisar por nome do anunciante. Vamos imaginar a necessidade de filtrar utilizando palavras chaves como **ACADEMIA** ou **FITNESS**.
 
-![sample004](https://github.com/user-attachments/assets/f21eb69c-e99a-4b53-bdc0-b4511b10a93c)
+![sample004](https://github.com/user-attachments/assets/b1cf9b15-8899-4a61-a93a-2d945acc7b40)
+
 
 
 
