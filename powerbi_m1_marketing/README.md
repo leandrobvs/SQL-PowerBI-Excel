@@ -180,7 +180,7 @@ Passando para a página 2 no qual sua função é filtrar os anúncios baseado e
 
 Vamos imaginar que uma empresa de cosméticos queira anunciar com a agencia M1 e eles querem anunciar imagens no Youtube. A M1 pode utilizar o deashboard para analisar as publicações de concorrentes e de pessoas da área, como no exemplo a seguir:
 
-![exemplo2](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/empresa_marketing/exemplo2.gif)
+![exemplo2](https://github.com/leandrobvs/SQL-PowerBI-Excel/tree/main/empresa_marketing/exemplo2.gif)
 
 Algo interessante é o fato do link te leva para o site da Google com isso temos informações atualizadas em tempo real, por mais que o dataset tem atualizações até o dia 26 de janeiro, vimos que ao navegar entre as publicações podemos encontrar propagandas que foram utilizadas no dia em que a pessoa estiver utilizando o dashboard.
 
