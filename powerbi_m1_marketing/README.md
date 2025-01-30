@@ -21,9 +21,6 @@
      - [Se aprofundando nas publicações](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#se-aprofundando-nas-publicações)
  
 * [Conclusão e Criação do Dashboard](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#conclusão-e-criação-do-dashboard)
-     - [Métricas Gerais](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#métricas-gerais)
-     - [Principais anunciantes](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#principais-anunciantes)
-     - [Se aprofundando nas publicações](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#se-aprofundando-nas-publicações)
      
 [Notas e Advertências](https://github.com/leandrobvs/SQL-PowerBI-Excel/blob/main/powerbi_m1_marketing/README.md#notas-e-advertências)
 
