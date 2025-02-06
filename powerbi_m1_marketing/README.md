@@ -1,4 +1,4 @@
-### Análise de concorrentes para empresa de Marketing
+### Inteligência competitiva para empresa de Marketing
 
 -----------
 ### Sumário
