@@ -3,7 +3,7 @@
 
 ![image](https://github.com/user-attachments/assets/81b5db63-efca-4cfa-bff3-1891a4cd5b84)
 
-## :mag_right: [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTQ3ZDgxMTAtNjZiNi00ZWYyLTg5MzItNmUxNjlmYTQ5NzQ0IiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9)
+## :mag_right: [Link -> Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTQ3ZDgxMTAtNjZiNi00ZWYyLTg5MzItNmUxNjlmYTQ5NzQ0IiwidCI6ImU3ODllZDJmLWQ3YTUtNDJlMy1iODllLWJlOGE4YjJjZTY5YSJ9)
 
 Acima o resultado final do Dashboard para apresentação, caso se interesse pelo processo de como poderiamos apresenta-lo eu faço algumas explicações no decorrer do corpo dessa postagem explicando certas abordagens. Obrigado.
 
