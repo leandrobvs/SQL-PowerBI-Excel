@@ -112,7 +112,7 @@ FROM customer_journey
 CROSS JOIN cte AS sub
 ```
 
-Já na tabela _products_ tirei algumas informações que de inicio gostaria de observar, tirei a mediana e média do preço e ver quantas categorias distintas eles trabalaham.
+Já na tabela _products_ tirei algumas informações que de inicio gostaria de observar, tirei a mediana e média do preço e ver quantas categorias distintas eles trabalham.
 
 ```
 SELECT DISTINCT
